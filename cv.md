@@ -26,3 +26,13 @@ function greet () {
 
 greet();
 ```
+## __Education__
+- __University:__ The Bonch-Bruevich Saint Petersburg State University of Telecommunications
+- __Courses:__
+    - [FreeCodeCamp](https://www.freecodecamp.org)
+    - [Yandex Practicum](https://practicum.yandex.ru)
+
+## __Languages__
+- English
+- Russian
+- French
