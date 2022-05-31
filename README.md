@@ -1,1 +1,1 @@
-# rsschool-cv
+https://jesuisartorius.github.io/rsschool-cv/cv
