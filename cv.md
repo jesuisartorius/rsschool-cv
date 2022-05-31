@@ -17,3 +17,12 @@ A novice web developer.
 - MongoDB
 - Node.js
 - Express.js
+
+## __Code Example__
+```js
+function greet () {
+  return 'hello world!';
+}
+
+greet();
+```
