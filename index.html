@@ -1,10 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
-<body>
+<body class="page">
+<div class="page__container section page__header">
+    <header class="header page__header">
+        <div class="logo header__logo">
+            <img src="./images/baldstashman.svg" alt="avatar"
+                 class="logo__image">
+        </div>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li>
+                    <a href="#" class="navigation__list-link">resume</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__list-link">about</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__list-link">portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content page__content">
+        <section class="about section content__section">
+            <div class="about__position">
+                <h1 class="about__title">Artur Afanasev, Junior&nbsp;Web&nbsp;Developer</h1>
+                <img src="./images/available.svg" alt="" class="about__status">
+            </div>
+            <ul class="about__contacts">
+                <li>
+                    <p class="about__contacts-item">artur.poe@gmail.com</p>
+                </li>
+                <li>
+                    <p class="about__contacts-item">+1 000 000-0000</p>
+                </li>
+                <li>
+                    <p class="about__contacts-item">Canada, Montreal</p>
+                </li>
+                <div class="about__links">
+                    <li>
+                        <img src="./images/li.svg" alt="linkedin logo"
+                             class="about__contacts-image">
+                    </li>
+                    <li>
+                        <img src="./images/behance.svg" alt="behance logo"
+                             class="about__contacts-image">
+                    </li>
+                </div>
+            </ul>
+            <p class="about__description">
+                As&nbsp;a&nbsp;Web Developer, I&nbsp;highly value the ability to&nbsp;bring
+                a&nbsp;client&rsquo;s vision to&nbsp;life, which is&nbsp;very
+                rewarding. There is&nbsp;a&nbsp;huge amount of&nbsp;satisfaction&nbsp;I
+                gain from seeing a&nbsp;piece of&nbsp;work from idea to&nbsp;design,
+                especially when it&nbsp;appears in&nbsp;the user hands. I&nbsp;believe
+                the user-centred solutions are the most valuable future digital
+                resources.
+            </p>
+        </section>
+        <section class="education section content__section">
+            <h2 class="education__title">Education</h2>
+            <ul class="education__list">
+                <li>
+                    <h3 class="education__list-title">University:</h3>
+                    <p class="education__list-description">The Bonch-Bruevich
+                        Saint Petersburg State University of&nbsp;Telecommunications</p>
+                </li>
+                <li>
+                    <h3 class="education__list-title">Courses:</h3>
+                    <p class="education__list-description">FreeCodeCamp Yandex
+                        Practicum</p>
+                </li>
+            </ul>
+        </section>
+        <section class="code section content__section">
+            <h2 class="code__title">Code</h2>
+            <pre>
+                <code>
+                    function greet () {
+                        return 'hello world!';
+                    }
+                    greet();
+                </code>
+            </pre>
 
+        </section>
+        <section class="skills section content__section">
+            <h2 class="skills__title">Skills</h2>
+            <ul class="cards">
+                <li>
+                    <h3 class="cards__title">Stack</h3>
+                    <p class="cards__description">
+                        HTML, CSS, JavaScript, React, MongoDB, Node.js,
+                        Express.js
+                    </p>
+                </li>
+                <li>
+                    <h3 class="cards__title">Tools</h3>
+                    <p class="cards__description">
+                        Git, Postman, Webpack
+                    </p>
+                </li>
+                <li>
+                    <h3 class="cards__title">Languages</h3>
+                    <p class="cards__description">
+                        English(Working proficiency), Russian, French(Limited
+                        working proficiency)
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li>
+                <a href="https://github.com/jesuisartorius"
+                   class="footer__list-link"><img
+                        src="./images/github.svg" alt="gh"
+                        class="footer__logo-gh"></a>
+            </li>
+            <li>
+                <p class="footer__copyright">
+                    © 2022
+                </p>
+            </li>
+            <li>
+                <a href="https://rs.school/js-stage0/"
+                   class="footer__list-link"><img
+                        src="https://rs.school/images/rs_school_js.svg"
+                        alt="rs logo"
+                        class="footer__logo-rs"></a>
+            </li>
+        </ul>
+
+
+    </footer>
+</div>
 </body>
 </html>
