@@ -116,6 +116,8 @@
 
 .about__links {
     display: flex;
+    list-style-type: none;
+    padding: 0;
     gap: 10px
 }
 
