@@ -20,3 +20,10 @@ Enthusiastic Front End Developer with a strong background in web development and
 - Responsive Design Principles
 - Cross-browser Compatibility
 - Familiarity with UI/UX principles
+
+## Example Code
+
+```javascript
+// Hello World in JavaScript
+console.log("Hello, World!");
+```
