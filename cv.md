@@ -27,3 +27,9 @@ Enthusiastic Front End Developer with a strong background in web development and
 // Hello World in JavaScript
 console.log("Hello, World!");
 ```
+
+## Languages
+
+- Russian
+- French
+- English
