@@ -1,3 +1,60 @@
-* {
-  font: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  font-size: 18px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.header__links-list {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  gap: 15px;
+}
+
+.header__logo {
+  width: 130px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: end;
+  max-width: 300px;
 }
