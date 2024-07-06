@@ -33,6 +33,10 @@ img {
   width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 .header {
   font-size: 18px;
   display: grid;
@@ -57,4 +61,31 @@ img {
   align-items: center;
   justify-self: end;
   max-width: 300px;
+}
+
+.cv {
+  margin: 0 auto;
+  max-width: 1052px;
+  margin-bottom: 50px;
+}
+
+.cv__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card__title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  width: 130px;
 }
