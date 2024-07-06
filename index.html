@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV#3</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__links-list">
+          <li class="header__links-list-item">
+            <a href="#" class="header__link">Summary</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#" class="header__link">Skills</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#" class="header__link">Code</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#" class="header__link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="header__logo">
+        <img src="./assets/img/logo.png" alt="Logo" class="header__logo-img">
+      </a>
+
+      <address class="address header__address">
+        <p>Artur Afanasev</p>
+        <a href="tel:+15141234567">+1 (514) 123-45-67</a>
+        <a href="mailto:aaa@example.ca ">aaa@example.ca</a>
+        <p>1 Rue des Carrières, Québec</p>
+      </address>
+    </header>
+    <main>
+      <section class="cv container">
+        <h1 class="cv__title">curriculum vitae</h1>
+        <ul class="cv__card-list">
+          <li class="cv__card-list-item">
+            <article class="card">
+              <div class="card__item-content">
+                <h2 class="card__title">Summary</h2>
+                <p class="card__text">
+                  Enthusiastic Front End Developer with a&nbsp;strong background
+                  in&nbsp;web development and UI/UX design. Proficient
+                  in&nbsp;HTML, CSS, and JavaScript, with a&nbsp;focus
+                  on&nbsp;creating responsive and user-friendly web interfaces.
+                  Experienced in&nbsp;leveraging modern frameworks and libraries
+                  to&nbsp;build dynamic web applications.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="cv__card-list-item">
+            <article class="card">
+              <div class="card__item-content">
+                <h2 class="card__title">Skills</h2>
+                <ul>
+                  <li>Proficient: HTML5, CSS3, JavaScript ES6+</li>
+                  <li>Frameworks/Libraries: React.js, Vue.js, Bootstrap</li>
+                  <li>Version Control: Git, GitHub</li>
+                  <li>Responsive Design Principles</li>
+                  <li>Cross-browser Compatibility</li>
+                  <li>Familiarity with UI/UX principles</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li class="cv__card-list-item">
+            <article class="card">
+              <div class="card__item-content">
+                <h2 class="card__title">Example Code</h2>
+                <pre
+                  class="highlight"
+                ><code><span class="c1">// Hello World in JavaScript</span>
+                  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Hello, World!</span><span class="dl">"</span><span class="p">);</span>
+                  </code></pre>
+              </div>
+            </article>
+          </li>
+          <li class="cv__card-list-item">
+            <article class="card">
+              <div class="card__item-content">
+                <h2 class="card__title">Languages</h2>
+                <ul>
+                  <li>Russian</li>
+                  <li>French</li>
+                  <li>English</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <address class="address header__address">
+        <p>Artur Afanasev</p>
+        <a href="tel:+15141234567">+1 (514) 123-45-67</a>
+        <a href="mailto:aaa@example.ca ">aaa@example.ca</a>
+        <p>1 Rue des Carrières, Québec</p>
+      </address>
+      <a href="#" class="footer__logo">
+        <img
+          src="./assets/img/rs-school-logo.svg"
+          alt="Logo"
+          class="footer__logo-img"
+        >
+      </a>
+    </footer>
+  </body>
 </html>
